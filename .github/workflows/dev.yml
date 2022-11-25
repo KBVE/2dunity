@@ -3,7 +3,7 @@ name: 2D Unity Build
 # Triggers for {dev} branch
 on: 
   workflow_dispatch: {}
-  pull_request: {}
+  #pull_request: { branches: [main] }
   push: { branches: [dev] }
 
 jobs:
@@ -28,7 +28,6 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-          ref: 'dev'
       - uses: actions/cache@v2
         with:
           path: ${{ matrix.projectPath }}/Library
