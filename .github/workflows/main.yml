@@ -79,6 +79,12 @@ jobs:
         with:
           name: build-WebGL
           path: build
+      
+      - name: Create CNAME
+        uses: finnp/create-file-action@master
+        env:
+          FILE_NAME: "build/WebGL/CNAME"
+          FILE_DATA: "2dunity.kbve.com"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
