@@ -86,6 +86,13 @@ jobs:
           FILE_NAME: "build/WebGL/CNAME"
           FILE_DATA: "2dunity.kbve.com"
 
+
+      - name: Create nojekyll
+        uses: finnp/create-file-action@master
+        env:
+          FILE_NAME: "build/WebGL/.nojekyll"
+          FILE_DATA: ""
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
