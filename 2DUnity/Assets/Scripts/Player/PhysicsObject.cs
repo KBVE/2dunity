@@ -9,7 +9,7 @@ public class PhysicsObject : MonoBehaviour
 
     [Header("Physics Object Attributes")]
     public float minGroundNormalY = .65f;
-    public float gravityModifier = 1f;
+    public float gravityModifier = 2f;
 
     protected Vector2 targetVelocity;
     protected bool grounded;
