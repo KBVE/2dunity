@@ -15,7 +15,7 @@ public class Player : PhysicsObject
 
     private void Update()
     {
-        if(grounded)
+        if (grounded)
             targetVelocity = _movement * _maxSpeed;
         else
             targetVelocity = _movement * _maxSpeed * _jumpSpeedMultiplier;
