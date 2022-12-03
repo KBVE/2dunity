@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b32d92374ab24a419cb379dc9ffb269
+guid: 56f7bf8c864de9745a7a70e6ac31bfbf
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -30,7 +30,7 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 1
+    spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 100
@@ -93,29 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Coin
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 3852
-      y: 4
-      width: 25
-      height: 25
-    spriteID: 6f65f090e171db94daaf4208045c7622
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 3852, y: 4}
-    spritePosition: {x: 1664, y: 1319}
-  - name: Ground1
+  - name: Health Bar
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -125,8 +103,8 @@ ScriptedImporter:
       x: 4
       y: 2172
       width: 400
-      height: 400
-    spriteID: 9caa5397af0d11a44be6324d5a40cfac
+      height: 30
+    spriteID: 67f50b4fbec794143ac02eef757586c3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -135,8 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2172}
-    spritePosition: {x: 1720, y: 880}
+    uvTransform: {x: 3, y: 2171}
+    spritePosition: {x: 1719, y: 1114}
   - name: Background (Reference)
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -148,7 +126,7 @@ ScriptedImporter:
       y: 4
       width: 3840
       height: 2160
-    spriteID: 071749c0a9d1d06419c00038f9f23780
+    spriteID: b542f816b4aa16a4491c09dac3836358
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -266,22 +244,12 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Coin
-    spriteName: Coin
+  - name: Health Bar
+    spriteName: Health Bar
     isGroup: 0
     parentIndex: -1
-    spriteID: 6f65f090e171db94daaf4208045c7622
-    layerID: 5
-    mosaicPosition: {x: 3852, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Ground1
-    spriteName: Ground1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9caa5397af0d11a44be6324d5a40cfac
-    layerID: 2
+    spriteID: 67f50b4fbec794143ac02eef757586c3
+    layerID: 6
     mosaicPosition: {x: 4, y: 2172}
     flatten: 0
     isImported: 1
@@ -290,8 +258,8 @@ ScriptedImporter:
     spriteName: Background (Reference)
     isGroup: 0
     parentIndex: -1
-    spriteID: 071749c0a9d1d06419c00038f9f23780
-    layerID: 3
+    spriteID: b542f816b4aa16a4491c09dac3836358
+    layerID: 2
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
