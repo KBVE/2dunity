@@ -762,7 +762,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 1
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    WebGL: VUPLEX_CCU
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
