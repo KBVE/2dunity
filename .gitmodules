@@ -1,0 +1,3 @@
+[submodule "2DUnity/Assets/Plugins/unitysubmodules"]
+	path = 2DUnity/Assets/Plugins/unitysubmodules
+	url = https://github.com/kbve/unitysubmodules

@@ -28,6 +28,8 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
+          token: ${{ secrets.GITHUB_TOKEN  }}
+          submodules: true
       - uses: actions/cache@v2
         with:
           path: ${{ matrix.projectPath }}/Library
