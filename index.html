@@ -64,7 +64,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "2DUnity",
-        productVersion: "0.0.82",
+        productVersion: "0.0.102",
         showBanner: unityShowBanner,
       };
 
@@ -107,7 +107,7 @@
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
+            window.vuplex.SetFullscreen(1)/*https://support.vuplex.com/articles/webgl-fullscreen*/;
           };
         }).catch((message) => {
           alert(message);
