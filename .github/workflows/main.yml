@@ -28,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-          token: ${{ secrets.GITHUB_TOKEN  }}
+          token: ${{ secrets.UNITY_PAT  }}
           submodules: true
       - uses: actions/cache@v2
         with:
