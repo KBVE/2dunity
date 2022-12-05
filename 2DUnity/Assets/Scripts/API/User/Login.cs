@@ -19,7 +19,7 @@ public class Login : MonoBehaviour
     [SerializeField] private string LoginURL = "https://api.kbve.com/api/auth/local/";
     [System.Serializable]   public class UserLoginData  {   public string identifier;   public string password; }
 
-    public Button m_Login, m_Guest, m_CutScene;
+    public Button m_Login, m_Guest, m_CutScene, m_Demo;
     //?  [VAR]   -> [END]
 
     public void CutScene()
@@ -28,6 +28,16 @@ public class Login : MonoBehaviour
             PlayerData.PlayerJWT = "Guest";
             PlayerData.PlayerUsername = "Guest";
             SceneManager.LoadScene("CutScene", LoadSceneMode.Single);
+    }
+
+
+
+    public void DemoScene()
+    {
+            PlayerData.PlayerEmail = "Guest";
+            PlayerData.PlayerJWT = "Guest";
+            PlayerData.PlayerUsername = "Guest";
+            SceneManager.LoadScene("SplashScreen", LoadSceneMode.Single);
     }
 
     public void GuestLogin()
@@ -88,6 +98,7 @@ public class Login : MonoBehaviour
         m_Login.onClick.AddListener(LoginRequest);
         m_Guest.onClick.AddListener(GuestLogin);
         m_CutScene.onClick.AddListener(CutScene);
+        m_Demo.onClick.AddListener(DemoScene);
      }
     void Update ()  {   }
 }
