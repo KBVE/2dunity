@@ -9,18 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 752ce4c174c248746b074af9d991a139
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Corgi Test.unity
+    guid: 442ea34cbccbe7f44a06dd30ef170e70
   - enabled: 1
     path: Assets/Scenes/CutScene.unity
     guid: e7e774082c121984897804c476d3fe53
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/StartScreen/SplashScreen.unity
     guid: 7b96552fd1198fa4eaae54a2f975645e
   - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/StartScreen/StartScreen.unity
     guid: b9cf7e391a5874f80a0485164885fe54
   - enabled: 0
@@ -200,28 +203,28 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/ThirdParty/MoreMountains/MMInterface/Styles/Mini/5-StyleguideDark.unity
     guid: 53a6867d9e449ca4394561ea3eaaa7eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventure1.unity
     guid: 2004874d46ed82941a677f3ee2b78d64
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventure2.unity
     guid: b9ffc1b3add71414181574775f050d6a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventure3.unity
     guid: 46fcc2c18a399f747b0673aacb693b94
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventure4.unity
     guid: a263b887440dd564983da172c7fe783d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventure5.unity
     guid: 702b1d26cdfc0ae4e9b4fd1d881b1e8f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventureLevelSelection.unity
     guid: a70302a2680553d40a0f9d57ee57ca5b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventureCharacterSelection.unity
     guid: 5716dd8c709a03142b13533ed057a262
-  - enabled: 1
+  - enabled: 0
     path: Assets/Plugins/unitysubmodules/CorgiEngine/Demos/RetroAdventure/RetroAdventureGameOver.unity
     guid: aba2daab4ea9f82428c58d957862f82d
   - enabled: 0
