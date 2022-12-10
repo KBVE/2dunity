@@ -45,7 +45,7 @@ public class Login : MonoBehaviour
             PlayerData.PlayerEmail = "Guest";
             PlayerData.PlayerJWT = "Guest";
             PlayerData.PlayerUsername = "Guest";
-            SceneManager.LoadScene("Game", LoadSceneMode.Single);
+            SceneManager.LoadScene("Corgi Test", LoadSceneMode.Single);
     }
     public void LoginRequest()  {   StartCoroutine(LoginEnumProcess()); }   // {Coroutine()}
     private IEnumerator LoginEnumProcess() //  [VOID]  -> {LoginEnumProcess()}
@@ -81,7 +81,7 @@ public class Login : MonoBehaviour
                 Debug.Log(PlayerPrefs.GetString("username"));
                 
                 
-                SceneManager.LoadScene("Game", LoadSceneMode.Single);
+                SceneManager.LoadScene("Corgi Test", LoadSceneMode.Single);
                 yield break;
             //! Grab the userData , prase, then set the JWT that represents the user.
             //! The JWT might not need any extra levels of security but should expire 30 days.

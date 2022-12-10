@@ -1,10 +1,10 @@
 name: 2D Unity Build
 
-# Triggers for {main} branch
+# Triggers for {dev} branch
 on: 
   workflow_dispatch: {}
   #pull_request: {}
-  push: { branches: [main] }
+  push: { branches: [dev] }
 
 jobs:
   # [START] -> [WebGL] 
