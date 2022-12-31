@@ -39,9 +39,7 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: a5240da7fff0bf34da21c7edff42b1d4, type: 3}
-    duration: 2
+  m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -136,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: v7.4
+  bundleVersion: v1.3
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -274,7 +272,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 3991f33f40938a94d9c709ed0ecc446a, type: 3}
+      m_Icon: {fileID: 0}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -823,7 +821,7 @@ PlayerSettings:
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
-  selectedPlatform: 2
+  selectedPlatform: 4
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
