@@ -500,10 +500,10 @@ MonoBehaviour:
     AimControl: 2
     RotationMode: 0
     MousePositionAction:
-      m_Name: 
+      m_Name: Mouse Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 24090240-8fff-4a70-a013-c215eeb413f5
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
