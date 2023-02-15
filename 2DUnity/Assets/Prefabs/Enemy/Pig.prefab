@@ -386,7 +386,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  WalkSpeed: 1
+  WalkSpeed: 2
   MovementSpeedMultiplier: 1
   AbilityMovementSpeedMultiplier: 1
   PushSpeedMultiplier: 1
@@ -789,8 +789,8 @@ MonoBehaviour:
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 512
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MinDamageCaused: 2
+  MaxDamageCaused: 4
   TypedDamages: []
   DamageCausedKnockbackType: 1
   DamageCausedKnockbackDirection: 0
@@ -851,7 +851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50fc24513c89140afa90465a45f5d6fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KnockbackForce: {x: 0, y: 15}
+  KnockbackForce: {x: 0, y: 5}
   DamageCausedKnockbackType: 1
   DamagePerStomp: 10
   ResetNumberOfJumpsOnStomp: 0
